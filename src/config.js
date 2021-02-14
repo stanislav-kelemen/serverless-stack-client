@@ -1,11 +1,13 @@
 const config = {
+  STRIPE_KEY: "pk_test_51IHCWAKp50CzCfTjvdUS4EH0XMQWtDA5AD1cvNXR3Cw4YP12MNwI2frUVCcoSUfaydsmX90KO6a8cfN5yPDtGTJF00hX6kr6bK",
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-api-app",
   },
   apiGateway: {
     REGION: "us-east-2",
-    URL: "https://zbha2fqswa.execute-api.us-east-2.amazonaws.com/prod/",
+    URL: "https://zbha2fqswa.execute-api.us-east-2.amazonaws.com/prod",
   },
   cognito: {
     REGION: "us-east-2",
